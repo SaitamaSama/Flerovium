@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gourab.Me</title>
+    <link href="Styles/Main.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="Styles/material-components-web.min.css">
+</head>
+<body class="mdc-typography">
+<div class="page-indicator">
+    <div class="indicator active"></div>
+    <div class="indicator"></div>
+    <div class="indicator"></div>
+    <div class="indicator"></div>
+</div>
+<div class="next-page-handle" data-next-page-name="projects">
+    <span class="name" id="next-page-name">Projects</span>
+    <span class="arrow">
+        <i class="material-icons">keyboard_arrow_down</i>
+    </span>
+</div>
+<div class="banner page active" data-page-name="front">
+    <div class="overlay mdc-theme--dark">
+        <section class="flex-free-center">
+            <h1 class="mdc-typography--display3 thin closed-in">Gourab.Me</h1>
+            <p class="mdc-typography--subheading1">
+                A site about programming, and animes.
+            </p>
+            <p class="mdc-typography--subheading1">
+                Oh, and also a place to post my random musings.
+            </p>
+        </section>
+    </div>
+</div>
+<div class="page mdc-theme--dark" data-page-name="projects"
+     data-next-page-details='{"name": "about", "display": "About"}'>
+    <h1 class="mdc-typography--display2 page-title thin closed-in">Projects</h1>
+    <div class="projects-container">
+        <section class="project active" style="background-color: #3f51b5;">
+            <div class="overlay">
+                <section class="content">
+                    <span class="title">Leloutama</span>
+                    <div class="description">
+                        A multi threaded HTTP/1.1 compliant webserver written in PHP.
+                    </div>
+                    <div class="buttons-container">
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            Project Page
+                        </a>
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            GitHub
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="project active" style="background-color: #ff4081">
+            <div class="overlay">
+                <section class="content">
+                    <span class="title">LogZ</span>
+                    <div class="description">
+                        PHP log file parser and material design frontend, written in PHP.
+                    </div>
+                    <div class="buttons-container">
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            Project Page
+                        </a>
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            GitHub
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="project" style="background-color: #231f20">
+            <div class="overlay">
+                <section class="content">
+                    <span class="title">Dash</span>
+                    <div class="description">
+                        A fresh new geometrical dashboard to display various charts.
+                    </div>
+                    <div class="buttons-container">
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            Project Page
+                        </a>
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            GitHub
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="project" style="background-color: #2196f3;">
+            <div class="overlay">
+                <section class="content">
+                    <span class="title">Potatoes</span>
+                    <div class="description">
+                        A minimal OOP callback based getopt() wrapper for PHP. (Don't judge the name)
+                    </div>
+                    <div class="buttons-container">
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            Project Page
+                        </a>
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            GitHub
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="project" style="background-color:  #4caf50;">
+            <div class="overlay">
+                <section class="content">
+                    <span class="title">FileFiddle</span>
+                    <div class="description">
+                        A secure application to browse and edit files on servers, running on.
+                    </div>
+                    <div class="buttons-container">
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            Project Page
+                        </a>
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            GitHub
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="project" style="background-color:  #00bcd4;">
+            <div class="overlay">
+                <section class="content">
+                    <span class="title">URL-Sharer</span>
+                    <div class="description">
+                        A real-time url sharing platform for local network, with other nifty things.
+                    </div>
+                    <div class="buttons-container">
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            Project Page
+                        </a>
+                        <a href="#" class="mdc-button" data-mdc-auto-init="MDCRipple">
+                            GitHub
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+    <button class="project-mover right"><i class="material-icons">keyboard_arrow_right</i></button>
+    <button class="project-mover left"><i class="material-icons">keyboard_arrow_left</i></button>
+</div>
+<div class="page mdc-theme--dark" data-page-name="about"
+     data-next-page-details='{"name": "contact", "display": "Contact"}'>
+    <h1 class="mdc-typography--display2 page-title thin closed-in">About</h1>
+    <div class="profile-card-container">
+        <section class="content">
+            <img src="Images/Saitama.jpg" class="mdc-elevation--z5 avatar">
+            <section class="bio mdc-elevation--z12">
+                <div class="headers">
+                    <div class="vestigial"></div>
+                    <section class="salutation">
+                        <h1 class="mdc-typography--title">Saitama (Sama)<small>a.k.a Gourab</small></h1>
+                        <h2 class="mdc-typography--subheading1">High School Student, Programmer, and Anime-Lover</h2>
+                    </section>
+                </div>
+                <p>
+                    I'm a 15 y/o guy, with a knack for programming, and watching animes. Please don't judge me, on the basis
+                    of me watching animes. I'm quite a full stack guy when it comes to programming, with PHP, NodeJS, and other
+                    basic frontend stuff.
+                </p>
+                <p>
+                    Well, other than programming, I like Chemistry, and Biology. Organic chemistry in particular, I suppose.
+                    Anddd.... I suck in maths, and which leads to hate towards physics, and the related.
+                </p>
+            </section>
+        </section>
+    </div>
+</div>
+<div class="page mdc-theme--dark" data-page-name="contact"
+     data-next-page-details='{"name": "projects", "display": "Projects"}'
+     data-is-end="true">
+    <h1 class="mdc-typography--display2 page-title thin closed-in">Contact</h1>
+    <div class="profile-card-container">
+        <div class="content">
+            <div class="bio override-contact mdc-elevation--z20">
+                <p>
+                    Drop me a email at, ping at gourab dot me
+                    <br>
+                    Or just ping me, with @Saitama, on <a href="https://chat.stackoverflow.com/rooms/11/php">R11</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="Scripts/material-components-web.min.js"></script>
+<script>mdc.autoInit()</script>
+<script src="Scripts/Main.js"></script>
+</body>
+</html>
